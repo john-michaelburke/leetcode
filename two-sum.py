@@ -25,3 +25,5 @@ class Solution:
             if (diff) in mem and mem[diff] != idx:
                 return [mem[diff],idx]
             mem[ele] = idx
+
+assert Solution().twoSum([3,3], 6) == [0,1]
